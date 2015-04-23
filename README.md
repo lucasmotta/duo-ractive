@@ -1,6 +1,9 @@
 duo-ractive
 =======
 
+[![Build Status](https://travis-ci.org/lucasmotta/duo-ractive.svg?branch=master)](https://travis-ci.org/lucasmotta/duo-ractive)
+[![npm version](https://badge.fury.io/js/duo-ractive.svg)](http://badge.fury.io/js/duo-ractive)
+
 Ractive.js plugin for Duo
 
 ## Install

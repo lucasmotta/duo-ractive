@@ -25,17 +25,11 @@
   },
   "homepage": "https://github.com/lucasmotta/duo-ractive",
   "dependencies": {
-    "co-fs": "^1.2.0",
-    "debug": "~2.0.0",
     "extend": "^2.0.0",
     "ractive": "^0.7.2"
   },
   "devDependencies": {
-    "co-mocha": "^1.0.1",
     "duo": "*",
-    "gnode": "0.0.8",
-    "mocha": "^2.0.1",
-    "rimraf": "^2.2.8",
-    "thunkify": "^2.1.2"
+    "mocha": "^2.0.1"
   }
 }

@@ -20,7 +20,6 @@ var defaults = {
 }
 
 
-
 /**
  * Compile Ractive component to JavaScript
  *
@@ -32,7 +31,6 @@ var defaults = {
  module.exports = function(opts) {
    var options = extend(true, {}, defaults, opts);
 
-   // extract this option (the rest are given directly to Handlebars)
    var extension = options.extension;
    delete options.extension;
 
