@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Ractive.js plugin for Duo",
   "main": "index.js",
+  "engines" : {
+    "node" : ">=0.12.0"
+  },
   "scripts": {
     "test": "mocha"
   },
