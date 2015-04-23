@@ -3,9 +3,6 @@ duo-ractive
 
 Ractive.js plugin for Duo
 
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-
 ## Install
 
 ```sh
