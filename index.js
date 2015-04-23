@@ -39,7 +39,7 @@ var defaults = {
      var content = fs.readFileSync(file.path, 'utf-8');
      var result = Ractive.parse(content, options);
      file.type = 'js';
-     file.src = result;
+     file.src = "module.exports = " + JSON.stringify(result);
 
      done(null, file);
    }
