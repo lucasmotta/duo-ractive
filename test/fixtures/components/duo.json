@@ -1,0 +1,35 @@
+{
+  "example.js": {
+    "id": "example.js",
+    "type": "js",
+    "mtime": 1429786346000,
+    "src": "module.exports = require(\"./example.html\");\n",
+    "deps": {
+      "./example.html": "example.html"
+    },
+    "entry": true
+  },
+  "example.html": {
+    "id": "example.html",
+    "type": "js",
+    "mtime": 1429785448000,
+    "src": {
+      "v": 3,
+      "t": [
+        {
+          "t": 7,
+          "e": "h1",
+          "f": [
+            "Hello ",
+            {
+              "t": 2,
+              "r": "name"
+            },
+            "!"
+          ]
+        }
+      ]
+    },
+    "deps": {}
+  }
+}
